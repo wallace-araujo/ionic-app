@@ -11,7 +11,7 @@ import { Injectable } from '@angular/core';
 export class MoovieProvider {
 
   private baseApiPath = "https://api.themoviedb.org/3";
-  private chaveapi = "?api_key=b7ff3d1873a18aab12b9cd77c2d0f9a6"
+  private chaveapi = "?api_key=chave"
 
   constructor(public http: HttpClient) {
     console.log('Hello MoovieProvider Provider');
